@@ -1,0 +1,31 @@
+<div id="back">
+  <a href="/">Go back</a>
+ </div>
+</div>
+
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+          <hr>
+          CST 336 Internet Programming 2019&copy; Kazemi  
+          <br>
+          <img src="/img/csumb-logo.png">
+        </footer>
+        <!-- closing footer -->
+
+  
+  <!-- Custom JS -->
+<script>
+  var name = location.pathname;
+  name = name.split("/").pop().substring(0, name.length - 6);
+  if(!name)
+  {$("#back").hide();}
+
+  $("#planetHead").html(`<h1>${name}</h1>`);
+  $("#planetPic").attr("src", "/img/" + name + ".jpg");
+  $("#planetPic").attr("alt", name);
+</script>
+   </body>
+    <!-- closing body -->
+
+</html>
