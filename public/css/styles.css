@@ -18,4 +18,8 @@ body {
   flex-shrink: 0;
 }
 
+h1 {
+  text-transform: capitalize;
+}
+
 
