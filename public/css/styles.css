@@ -10,6 +10,10 @@ body {
   flex-direction: column;
 }
 
+a {
+  color: yellow;
+}
+
 .content {
   flex: 1 0 auto;
 }
@@ -20,6 +24,8 @@ body {
 
 h1 {
   text-transform: capitalize;
+  padding-bottom: 50px;
+  padding-top: 25px;
 }
 
 ul {
@@ -44,5 +50,6 @@ li a:hover {
   background-color: #555;
   color: white;
 }
+
 
 
